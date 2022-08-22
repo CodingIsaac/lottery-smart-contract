@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# Sample Lottery COntract Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic understanding of a lottery smart contract.
 
-Try running some of the following tasks:
+So what do we require?
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+    a. state variables - owner and players
+    b. modifier to determoine only owner and whether owner can participate in the lottery or not
+    c. a function to enter the lottery
+    d. a function to determine the source of randomness
+    e. a function should take the keccak function to ensure transfer of token to the winner
+    f. a function to check the balance of the lottery.
+
