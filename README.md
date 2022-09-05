@@ -1,4 +1,4 @@
-# Sample Lottery COntract Project
+# Sample Lottery Contract Project
 
 This project demonstrates a basic understanding of a lottery smart contract.
 
